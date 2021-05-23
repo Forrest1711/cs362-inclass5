@@ -10,7 +10,7 @@ class TestCase(unittest.TestCase):
         self.assertEqual(leap_year.leap_year(137), False)
 
     def test3(self):
-        self.assertEqual(leap_year.leap_year(-32), False)
+        self.assertEqual(leap_year.leap_year(-32), True)
 
     def test4(self):
         self.assertEqual(leap_year.leap_year("32"), False)
