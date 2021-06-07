@@ -13,9 +13,8 @@ def leap_year(n):
         return False
 
 
-leap_year(-36)
-leap_year(1984)
+# leap_year(1984)
 leap_year(1998)
-leap_year(2016)
-leap_year(2021)
-leap_year(99999)
+# leap_year(2000)
+leap_year(2100)
+leap_year(2048)
